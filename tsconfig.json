@@ -1,9 +1,10 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
-        "target": "es5",
+        "target": "ES2022",
+        "noEmitOnError": true,
         "removeComments": true,
         "outDir": "js",
         "sourceMap": true,
-        "outFile": "app.js"
     }
 }
