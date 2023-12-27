@@ -8,7 +8,7 @@ class User{
 }
 const tom : User = new User("Том");
 const header = document.getElementById("header");
-header.innerHTML = "Привет " + tom.name + `. Тебе ${tom.age} лет`;
+header!.innerHTML = "Привет " + tom.name + `. Тебе ${tom.age} лет`;
 var x:number|string = 40;
 console.log(x);
 x = "hello"
