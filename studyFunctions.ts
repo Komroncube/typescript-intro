@@ -44,3 +44,7 @@ function printSentence(words: string[]|string){
 }
 printSentence(["Язык", "программирования", "TypeScript"]);
 printSentence("Язык программирования JavaScript");
+
+
+const file : HTMLElement|null = document.getElementById("demo")
+file!.innerHTML='hello world'

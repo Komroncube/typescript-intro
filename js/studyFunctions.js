@@ -26,4 +26,6 @@ function printSentence(words) {
 }
 printSentence(["Язык", "программирования", "TypeScript"]);
 printSentence("Язык программирования JavaScript");
+const file = document.getElementById("demo");
+file.innerHTML = 'hello world';
 //# sourceMappingURL=studyFunctions.js.map
