@@ -23,4 +23,5 @@ let bill = { name: "Bob", age: 41 };
 function getPerson() {
     return { name: "Michele", age: 32 };
 }
+const emp = { name: "Susa", age: 32, company: "Microsoft" };
 //# sourceMappingURL=objects.js.map
