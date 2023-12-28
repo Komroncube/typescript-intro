@@ -61,3 +61,9 @@ let marks: number[] = [3,2,4]
 let grades: number[] = [3,4,5,43,4,5,5,5,5]
 let bools : boolean[] = [true]
 math = ["Math", ...marks, grades, "algebra", bools]
+
+let decomp = math[3]
+for(let prop of math)
+{
+    console.log(prop);
+}

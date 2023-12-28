@@ -24,4 +24,15 @@ function getPerson() {
     return { name: "Michele", age: 32 };
 }
 const emp = { name: "Susa", age: 32, company: "Microsoft" };
+var Season;
+(function (Season) {
+    Season[Season["Winter"] = 0] = "Winter";
+    Season[Season["Spring"] = 5] = "Spring";
+    Season[Season["Summer"] = 2] = "Summer";
+    Season[Season["Autumn"] = 3] = "Autumn";
+})(Season || (Season = {}));
+;
+var current = Season[5];
+console.log(current);
+console.log(Season.Winter);
 //# sourceMappingURL=objects.js.map

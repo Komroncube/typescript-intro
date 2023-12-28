@@ -45,3 +45,7 @@ function getPerson<T extends Person|number>():T{
 type Employee = Person & {company:string}
 const emp:Employee ={name:"Susa", age:32, company: "Microsoft"}
 
+enum Season { Winter=0, Spring=5, Summer=2, Autumn=3 };
+var current: string = Season[5];    // 2 - числовое значение Summer
+console.log(current);  
+console.log(Season.Winter);

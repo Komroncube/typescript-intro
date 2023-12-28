@@ -43,4 +43,8 @@ let marks = [3, 2, 4];
 let grades = [3, 4, 5, 43, 4, 5, 5, 5, 5];
 let bools = [true];
 math = ["Math", ...marks, grades, "algebra", bools];
+let decomp = math[3];
+for (let prop of math) {
+    console.log(prop);
+}
 //# sourceMappingURL=app.js.map
