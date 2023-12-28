@@ -41,4 +41,7 @@ function getPerson<T extends Person|number>():T{
     return {name : "Michele", age: 32} as T
 }
 
-// userlist bor shuni front endga chiqarish kerak,
+
+type Employee = Person & {company:string}
+const emp:Employee ={name:"Susa", age:32, company: "Microsoft"}
+
