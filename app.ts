@@ -7,8 +7,13 @@ class User{
     }
 }
 const tom : User = new User("Том");
-const header = document.getElementById("header");
-header!.innerHTML = "Привет " + tom.name + `. Тебе ${tom.age} лет`;
+// const header = document.getElementById("header");
+// header!.innerHTML = "Привет " + tom.name + `. Тебе ${tom.age} лет`;
+
+
+// const newHeader = document.getElementById("header") as HTMLElement
+// const anotherHeader = <HTMLElement>document.getElementById("header")
+// newHeader.innerHTML = 'Blackpink'
 var x:number|string = 40;
 console.log(x);
 x = "hello"
@@ -36,4 +41,23 @@ someArr = ["bob", "shaun", 'felix']
 console.log(someArr);
 
 
+const numbers: readonly string[] = ['one', 'two', ...someArr]
+console.log(numbers);
+const [first, second, ,fourth, ...rest] = numbers
+
+console.log(first);
+console.log(second);
+console.log(fourth);
+console.log(rest);
 // console.log(tom.name);
+
+let catUser: [string, number] = ["Tom", 32];
+for (const prop of catUser){
+    console.log(prop);
+}
+
+let math:[string, ...number[], number[], string, boolean[]]
+let marks: number[] = [3,2,4]
+let grades: number[] = [3,4,5,43,4,5,5,5,5]
+let bools : boolean[] = [true]
+math = ["Math", ...marks, grades, "algebra", bools]
