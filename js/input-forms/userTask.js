@@ -13,7 +13,9 @@ var Gender;
 })(Gender || (Gender = {}));
 const users = [new AppUser("Siroj", 1)];
 const user = new AppUser("Malika", 2);
+const user2 = new AppUser("bobur", 32);
 users.push(user);
+users.push(user2);
 function getUsers() {
     let list = document.getElementById("userlist");
     const gender = document.getElementById("gender").innerText == 'male' ? 1 : 2;

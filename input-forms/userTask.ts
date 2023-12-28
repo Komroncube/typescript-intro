@@ -15,7 +15,7 @@ type NewType = AppUser
 
 const users: Array<NewType>= [new AppUser("Siroj", 1)]
 const user:AppUser = new AppUser("Malika", 2)
-const user2 = new AppUser(32, 32)
+const user2 = new AppUser("bobur", 32)
 
 users.push(user)
 users.push(user2)
